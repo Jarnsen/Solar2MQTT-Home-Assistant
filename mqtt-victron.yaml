@@ -4,6 +4,8 @@
   sensor:
     - state_topic: "VictronTestlauf/Alive"
       name: "VictronTestlauf Alive"
+    - state_topic: "VictronTestlauf/Device_model"
+      name: "VictronTestlauf Victron Model"
     - state_topic: "VictronTestlauf/Wifi_RSSI"
       name: "VictronTestlauf Wifi RSSI"
       unit_of_measurement: "dBm"
